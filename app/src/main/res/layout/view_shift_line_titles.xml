@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/V_SL_T_titles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/V_SL_title_TV"
+        android:weightSum="7">
+
+        <TextView
+            android:id="@+id/V_SL_T_sat_TV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/shift_day_saturday"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:id="@+id/V_SL_T_fri_TV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/shift_day_friday"
+
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:id="@+id/V_SL_T_thu_TV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:text="@string/shift_day_thursday"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:id="@+id/V_SL_T_wed_TV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:text="@string/shift_day_wendsday"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:id="@+id/V_SL_T_tue_TV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:text="@string/shift_day_tuseday"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:id="@+id/V_SL_T_mon_TV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:text="@string/shift_day_monday"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:id="@+id/V_SL_T_sun_TV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/shift_day_sunday"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+    </LinearLayout>
+
+    <ToggleButton
+        android:id="@+id/V_SL_sat_tgl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/V_SL_T_titles"
+        android:textOff=""
+        android:textOn=""/>
+
+    <TextView
+        android:id="@+id/V_SL_title_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/V_SL_sun_tgl"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/V_SL_T_titles"
+        android:layout_toEndOf="@+id/V_SL_sun_tgl"
+        android:layout_toRightOf="@+id/V_SL_sun_tgl"
+
+        android:gravity="center"
+        android:text="@string/shift_title_morn"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <ToggleButton
+        android:id="@+id/V_SL_fri_tgl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/V_SL_T_titles"
+        android:layout_toEndOf="@+id/V_SL_sat_tgl"
+
+        android:layout_toRightOf="@+id/V_SL_sat_tgl"
+        android:textOff=""
+        android:textOn=""/>
+
+    <ToggleButton
+        android:id="@+id/V_SL_thu_tgl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/V_SL_T_titles"
+        android:layout_toEndOf="@+id/V_SL_fri_tgl"
+
+        android:layout_toRightOf="@+id/V_SL_fri_tgl"
+        android:textOff=""
+        android:textOn=""/>
+
+    <ToggleButton
+        android:id="@+id/V_SL_wed_tgl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/V_SL_T_titles"
+
+        android:layout_toEndOf="@+id/V_SL_thu_tgl"
+        android:layout_toRightOf="@+id/V_SL_thu_tgl"
+        android:textOff=""
+        android:textOn=""/>
+
+    <ToggleButton
+        android:id="@+id/V_SL_tue_tgl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/V_SL_T_titles"
+        android:layout_toEndOf="@+id/V_SL_wed_tgl"
+        android:layout_toRightOf="@+id/V_SL_wed_tgl"
+        android:textOff=""
+        android:textOn=""/>
+
+    <ToggleButton
+        android:id="@+id/V_SL_mon_tgl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/V_SL_T_titles"
+        android:layout_toEndOf="@+id/V_SL_tue_tgl"
+        android:layout_toRightOf="@+id/V_SL_tue_tgl"
+        android:textOff=""
+        android:textOn=""/>
+
+    <ToggleButton
+        android:id="@+id/V_SL_sun_tgl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/V_SL_T_titles"
+        android:layout_toEndOf="@+id/V_SL_mon_tgl"
+        android:layout_toRightOf="@+id/V_SL_mon_tgl"
+        android:textOff=""
+        android:textOn=""/>
+</RelativeLayout>

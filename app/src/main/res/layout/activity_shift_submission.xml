@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:custom="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/NULL_USR_SS_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/title_shift_submission"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="normal|bold"/>
+
+    <View
+        android:id="@+id/NULL_USR_SS_sep"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/NULL_USR_SS_tv"
+        android:background="@android:color/darker_gray"/>
+
+    <alon.com.shifter.views.ShiftSubmissionView
+        android:id="@+id/USR_SS_shiftSubmissionView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        custom:isManager="false"/>
+
+    <Button
+        android:id="@+id/USR_SS_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/submit"/>
+
+    <TextView
+        android:id="@+id/NULL_USR_SS_explanation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/NULL_USR_SS_tv"
+        android:gravity="right|end"
+        android:text="@string/user_shift_submission_unapproved"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+</RelativeLayout>

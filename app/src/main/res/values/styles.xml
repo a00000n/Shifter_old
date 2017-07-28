@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen"/>
+
+    <style name="first_shift_setup" parent="android:Theme.Holo"/>
+
+</resources>

@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">Shifter</string>
+
+    <string name="err_error_write">נתקלתי בשגיאה</string>
+    <string name="err_failed_getting_info">משיכת מידע נכשלה</string>
+    <string name="err_login_failed">ההתחברות נכשלה</string>
+
+    <string name="dialog_uploading_data">מעלה נתונים</string>
+
+    <string name="shift_title_morn">בוקר</string>
+    <string name="shift_title_afr_non">צהריים</string>
+    <string name="shift_title_evening">ערב</string>
+    <string name="shift_title_night">לילה</string>
+    <string name="shift_day_saturday">שבת</string>
+    <string name="shift_day_friday">שישי</string>
+    <string name="shift_day_thursday">חמישי</string>
+    <string name="shift_day_wendsday">רביעי</string>
+    <string name="shift_day_tuseday">שלישי</string>
+    <string name="shift_day_monday">שני</string>
+    <string name="shift_day_sunday">ראשון</string>
+
+    <string name="login_login">התחבר</string>
+    <string name="login_email">אימייל</string>
+    <string name="login_password">סיסמה</string>
+
+    <string name="logging_in">מתחבר</string>
+    <string name="please_wait">אנא המתן…</string>
+
+    <string name="prob_password_dont_match">הסיסמאות לא תואמות</string>
+    <string name="prob_weak_pass">הסיסמא חלשה מידי</string>
+
+    <string name="register_register">הירשם</string>
+    <string name="register_workplace_name">הקוד של מקום העבודה</string>
+    <string name="register_persons_name">השם שלך</string>
+    <string name="register_existing_acc">כבר יש לי משתמש</string>
+
+    <string name="register_dialog_checking_workplace_code">מאמת את קוד מקום העבודה</string>
+    <string name="register_dialog_checking_email">בודק את פורמט המייל</string>
+    <string name="register_dialog_verifing_email">בודק שאין מייל כזה במערכת</string>
+    <string name="register_dialog_encrypting_email">מצפין את המייל שלך</string>
+    <string name="register_dialog_adding_you">מוסיף אותך למערכת</string>
+
+    <string name="register_err_failed_to_validate_wrkplace_code">לא נמצא מקום עבודה עם הקוד הזה</string>
+    <string name="register_err_unspecefied_err">משהו השתבש</string>
+
+    <string name="phone_num_dialog_please_input_phone_number">אנא הזן את מספר הטלפון שלך</string>
+    <string name="phone_num_dialog_phone_number_explained">התוכנה זקוקה למספר הטלפון שלך, אך אנו מבטיחים לעולם לא להשתמש בו או לתת אותו למישהו אחר</string>
+    <string name="phone_num_dialog_verifing_phone_num">מאמת את מספר הפלאפון שלך</string>
+    <string name="phone_num_dialog_checking_phone_number">מבצע אימות מספר טלפון</string>
+
+    <string name="phone_num_dialog_err_not_correct_number">המספר לא נכון</string>
+
+    <string name="title_shift_setup">הגדרת משמרות</string>
+    <string name="title_special_settings">הגדרות מיוחדות</string>
+    <string name="title_shift_hours">הגדרת שעות למשמרות</string>
+    <string name="title_shift_submission">הגשת משמרות</string>
+
+    <string name="ui_submit_shifts">הגש משמרות</string>
+
+    <string name="mgr_arraignment">הצג/הכן סידור</string>
+
+    <string name="mgr_set_shifts">האם להגדיר את המשמרות הללו כפתוחות להגשה? (ניתן לשנות בהמשך)</string>
+    <string name="mgr_explanation_shift_submit">עבור הגדרת משמרות אנו לא תומכים בהגדרת שעות עבור כל משמרת, אך מאפשרים לך להגדיר אותם יותר מאוחר.המטרה של החלון הזה הוא רק על מנת להגדיר איזה משמרות אפשר להגיש במהלך השבוע עבור העובדים.</string>
+    <string name="mgr_uploading_data_add_spec_settings">בזמן שהמידע מועלה לשרת, האם תרצו להוסיף הגדרות מיוחדות כגון מינימום משמרות, או להמשיך להגדרת שעות עבור המשמרות?</string>
+
+    <string name="done">המשך</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="cancel">ביטול</string>
+    <string name="back">חזרה</string>
+
+    <string name="please_wait_eng">Please wait…</string>
+    <string name="are_you_sure_eng">Are you sure?</string>
+
+    <string name="spec_setting_limit_amount">בחרת את המספר המקסימאלי של אופציות עבור הגדרה זו</string>
+
+    <string name="perma_login">זכור אותי</string>
+    <string name="perma_login_warning">אזהרה! לא ממולץ! סיכון ביטחוני</string>
+
+    <string name="ui_logout">התנתק</string>
+    <string name="ui_hello_msg">שלום,</string>
+    <string name="ui_phone_book">ספר טלפונים</string>
+
+    <string name="title_user_rqs">רשימת משמתמשים הממתינים לאישור</string>
+
+    <string name="mgr_employee_list">רשימת עובדים</string>
+    <string name="mgr_settings">הגדרות</string>
+    <string name="mgr_user_rqs">אשר משתמשים</string>
+    <string name="mgr_shift_settings">אפשרויות פתוחות להגשת סידור</string>
+    <string name="mgr_spec_settings">שינוי הגדרות מיוחדות</string>
+    <string name="mgr_shift_hours">הגדרת שעות למשמרת</string>
+    <string name="mgr_shift_hour_setting">הגדרות שעות למשמרות</string>
+    <string name="mgr_set_hours">הגדר שעות</string>
+    <string name="mgr_explanation_shift_hours">כאן תוכל להגדיר את השעות עבור משמרות (בוקר, צהריים, ערב ולילה). אנא שים לב שניתן להגדיר באופן פרטני עבור כל עובד בעת הגדרת הסידור.</string>
+    <string name="mgr_msg_hour_set">(מוגדר)</string>
+
+    <string name="dialog_shift_hours_title">Set Shift Default Time</string>
+    <string name="dialog_shift_hours_msg_start">הגדר את השעות התחלה של המשמרת.</string>
+    <string name="dialog_shift_hours_msg_end">הגדר את השעות סוף של המשמרת.</string>
+
+    <string name="mgr_user_rqs_no_users">אין משתמשים הממתינים לאישור</string>
+    <string name="mgr_user_rqs_accept">אשר</string>
+    <string name="mgr_user_rqs_decline">דחה</string>
+
+    <string name="user_unapproved">אינך מאושר, צור קשר עם המנהל</string>
+
+    <string name="mgr_account_mgr">ניהול משתמשים</string>
+    <string name="mgr_accmgr_user_manage">נהל משתמש</string>
+    <string name="mgr_accmgr_no_users">אין משתמשים להציג</string>
+    <string name="mgr_accmgr_user_item_long_click">לחיצה על משתמש תציג מסך נתונים לגביו</string>
+
+    <string name="mgr_accmgr_df_name_title"><u>שם:</u></string>
+    <string name="mgr_accmgr_df_email_title"><u>אימייל:</u></string>
+    <string name="mgr_accmgr_df_phone_title"><u>מספר טלפון:</u></string>
+    <string name="mgr_accmgr_df_job_title"><u>תפקיד:</u></string>
+    <string name="mgr_accmgr_df_rating"><u>דירוג:</u></string>
+    <string name="mgr_accmgr_df_delete">מחק משתמש</string>
+    <string name="mgr_accmgr_delete_acc_sure">האם אתה בטוח שאתה רוצה למחוק את המשמתש?</string>
+    <string name="mgr_accmgr_title">ניהול משתמשים</string>
+    <string name="mgr_accmgr_user_mgr">גיליון מידע עבור משתמש</string>
+    <string name="mgr_accmgr_not_approved_yet">המשתמש לא מאושר עדיין, לא ניתן להציג נתונים לגביו</string>
+    <string name="user_deleted">המשתמש שלך נמחק, צור קשר עם המנהל</string>
+    <string name="submit">הגש</string>
+    <string name="user_shift_submission_unapproved">על מנת לבחור את המשמרות שאתם רוצים להגיש כ\"פתוח\" צריך ללחוץ על הכפתור התואם. לחיצה ארוכה תציג דיאלוג שבו תוכלו להוסיף הערה עבור המנהל.</string>
+    <string name="user_shift_comment">הערה למנהל משמרות</string>
+    <string name="user_show_shifts">הצג סידור</string>
+    <string name="user_shift_submission_error">שגיאה בעת הגשת משמרות</string>
+    <string name="err_shift_day_msg">עלייך להגיש משמרת אחת לפחות בימים:</string>
+    <string name="err_shift_shift_msg">עלייך להגיש אחת לשבוע משמרת:</string>
+    <string name="err_shift_amount_msg_1">עלייך להגיש לפחות</string>
+    <string name="err_shift_open_close_msg">המנהל אוסר עלייך להגיש סגירה ואז פתיחה.</string>
+    <string name="err_shift_amount_msg_2">משמרות בשבוע</string>
+    <string name="user_uploading_shifts">מעלה את המשמרת…</string>
+    <string name="dialog_getting_data">ממתין למידע מהשרת</string>
+    <string name="are_you_sure">להמשיך?</string>
+    <string name="err_spec_settings_min_shifts">דרשת שיוגשו יותר משמרת מאשר פתחת להגשה.</string>
+    <string name="err_spec_settings_certain_shift">דרשת שיוגש משמרת מסוימת ךפחות אחת לשבוע, אך לא פתחת את המשמרת הזו כלל.</string>
+    <string name="err_spec_settings_certain_day">דרשת שיוגש משמרת במהלך יום מסוים, אך חסמת את היום הזה להגשה.</string>
+    <string name="dialog_failed_validation_spec_settings">אי התאמה בין הגדרות מיוחדות והגדרות משמרת</string>
+    <string name="mgr_other_settings">הגדרות אחרות</string>
+    <string name="title_arrangement">סידור עבודה</string>
+    <string name="mgr_set_employees">בחר</string>
+    <string name="mgr_arrgment_define">הגדר שעות</string>
+    <string name="dialog_arrangment_from_shift_time">שעת התחלת משמרת</string>
+    <string name="dialog_arrangment_define_start_hours"> הגדר התחלת משמרת עבור:</string>
+    <string name="dialog_arrangment_define_end_hours"> הגדר סוף משמרת עבור:</string>
+    <string name="dialog_arrangment_to_shift_time">שעת סיום משמרת</string>
+    <string name="dialog_arrangment_start_hour">שעת תחילת משמרת היא:</string>
+    <string name="dialog_arrangment_defined">שעות הוגדרו</string>
+    <string name="connecting_msg">מתחבר…</string>
+    <string name="mgr_arrgment_go_back_one_day"><![CDATA[<]]></string>
+    <string name="mgr_arrgment_go_ahead_one_day"><![CDATA[>]]></string>
+    <string name="mgr_last_time_to_submit">שעת סגירת הגשת משמרות לשבוע</string>
+    <string name="mgr_submission_cap">מועד אחרון להגשת משמרות</string>
+    <string name="err_failed_getting_approval">שגיאה #a326f</string>
+    <string name="mgr_arrgment_uploading">מעלה את שיבוץ המשמרות…</string>
+    <string name="err_not_seralizeable">שגיאה #01638</string>
+    <string name="err_unknown">שגיאה לא ידוע</string>
+    <string name="title_arrangement_display">סידור לשבוע</string>
+    <string name="publish">פרסם</string>
+    <string name="mgr_arrgment_nothing_defined">לא הוגדרו משמרות לאף עובד.</string>
+    <string name="err_no_user">לא נמצא משתמש</string>
+    <string name="user_no_shifts_for_today">אין משמרות ביום זה</string>
+</resources>

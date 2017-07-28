@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ViewDay">
+        <attr name="dayName" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="ViewShiftDetails">
+        <attr name="shiftName" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="ShiftLineView">
+        <attr name="shiftType" format="enum">
+            <enum name="morning" value="1"/>
+            <enum name="after_noon" value="2"/>
+            <enum name="evening" value="3"/>
+            <enum name="night" value="4"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ShiftSubmissionView">
+        <attr name="isManager" format="boolean"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+    <Button
+        android:id="@+id/LV_MGR_UMNGT_decline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:text="@string/mgr_user_rqs_decline"/>
+
+    <Button
+        android:id="@+id/LV_MGR_UMNGT_accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/LV_MGR_UMNGT_decline"
+        android:focusable="false"
+        android:text="@string/mgr_user_rqs_accept"/>
+
+    <TextView
+        android:id="@+id/LV_MGR_UMNGT_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/LV_MGR_UMNGT_accept"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/LV_MGR_UMNGT_accept"
+        android:gravity="center|right"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

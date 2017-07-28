@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/USR_SHIFT_DISPLAY_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/NULL_usr_shift_display_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/title_arrangement"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="normal|bold"/>
+
+    <View
+        android:id="@+id/NULL_usr_shift_display_sep"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/NULL_usr_shift_display_tv"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:id="@+id/USR_SHIFT_DISPLAY_day_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NULL_usr_shift_display_tv"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/USR_SHIFT_DISPLAY_day_one_day_back"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mgr_arrgment_go_back_one_day"/>
+
+        <TextView
+            android:id="@+id/USR_SHIFT_DISPLAY_day_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/USR_SHIFT_DISPLAY_day_one_day_forward"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mgr_arrgment_go_ahead_one_day"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/USR_SHIFT_dISPLAY_shifts_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/USR_SHIFT_DISPLAY_back"
+        android:layout_below="@+id/USR_SHIFT_DISPLAY_day_display"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/USR_SHIFT_DISPLAY_shifts_info_sheet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/USR_SHIFT_DISPLAY_loading_shifts"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/USR_SHIFT_DISPLAY_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/back"/>
+
+
+</RelativeLayout>

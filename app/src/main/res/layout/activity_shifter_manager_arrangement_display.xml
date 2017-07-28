@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/NULL_mgr_arrgment_display_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/title_arrangement_display"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="normal|bold"/>
+
+    <View
+        android:id="@+id/NULL_mgr_arrgment_display_sep"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/NULL_mgr_arrgment_display_tv"
+        android:background="@android:color/darker_gray"/>
+
+    <Button
+        android:id="@+id/MGR_ARRGMENT_DISPLAY_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/cancel"/>
+
+    <Button
+        android:id="@+id/MGR_ARRGMENT_DISPLAY_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/publish"/>
+
+    <ScrollView
+        android:id="@+id/MGR_ARRGMENT_DISPLAY_info_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/MGR_ARRGMENT_DISPLAY_submit"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/NULL_mgr_arrgment_display_tv"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/MGR_ARRGMENT_DISPLAY_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/MGR_ARRGMENT_DISPLAY_loading"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>

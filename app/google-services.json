@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "104578028927",
+    "firebase_url": "https://shifter-64c7a.firebaseio.com",
+    "project_id": "shifter-64c7a",
+    "storage_bucket": "shifter-64c7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104578028927:android:abbe72050d972ac3",
+        "android_client_info": {
+          "package_name": "alon.com.shifter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104578028927-gr387d9bosl6iohgm9kmcol72e65119n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "alon.com.shifter",
+            "certificate_hash": "E6946C2E8D8CE1EFDB6F3D8EFA2934BB7C7538D2"
+          }
+        },
+        {
+          "client_id": "104578028927-v63hjdh613037clth32p17v5h39mch98.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwfODBfGrWQl8rafgmB8lKkZDL1kzYYOQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
